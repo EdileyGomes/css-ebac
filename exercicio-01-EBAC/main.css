@@ -7,7 +7,7 @@
 
 body > header {
     background-color: #2f3640;
-    padding: 16px 0px;
+    padding: 16px 0px 16px 0px;
     color: lightgray;
 }
 
@@ -77,8 +77,7 @@ section h2, .articles article {
 a:hover {
     background-color: #2f3640;
     color: white;
-    font-weight: bolder;
-    font-size: 20px;
+    text-decoration: underline;
 }
 
 .articles article p, .articles article a {
@@ -97,17 +96,29 @@ section h2 {
 }
 
 #sports {
-    background-image: linear-gradient(to right, #5fc9f3, #28e6bc);
+    background-image: linear-gradient(to right, #5ff35f, #b3e628);
+}
+
+#sports .articles article a {
+    background-color: #5fc9f3;
+}
+
+#sports .articles article a:hover {
+    background-color: #000000;
 }
 
 #economy {
     background-image: linear-gradient(to right, #f9d423, #f0ba0a);
 }
 
+#economy .articles article a:hover {
+    background-color: #000000;
+}
+
 .articles article img {
     border-radius: 20px;
     max-height: 300px;
-    position: relative;
+    background-size: cover;
 }
 
 #economy .articles article a {
@@ -116,4 +127,20 @@ section h2 {
 
 #medicin {
     background-image: linear-gradient(to right, #ff758c, #ff7eb3);
+}
+
+#medicin .articles article a:hover {
+    background-color: #000000;
+}
+
+#medicin .articles article a {
+    background-color: #f0506a;
+}
+
+#technology {
+    background-image: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+#technology .articles article a:hover {
+    background-color: #000000;
 }
