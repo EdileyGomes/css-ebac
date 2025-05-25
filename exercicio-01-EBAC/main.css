@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0px 16px 0px;
+    color: lightgray;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0px;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin: 16px 0px 16px 0px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 7px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0px 0px 0px;
+    font-weight: bold;
+}
+
+
+a:hover {
+    background-color: #2f3640;
+    color: white;
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+#sports {
+    background-image: linear-gradient(to right, #5ff35f, #b3e628);
+}
+
+#sports .articles article a {
+    background-color: #5fc9f3;
+}
+
+#sports .articles article a:hover {
+    background-color: #000000;
+}
+
+#economy {
+    background-image: linear-gradient(to right, #f9d423, #f0ba0a);
+}
+
+#economy .articles article a:hover {
+    background-color: #000000;
+}
+
+.articles article img {
+    border-radius: 20px;
+    max-height: 300px;
+    background-size: cover;
+}
+
+#economy .articles article a {
+    background-color: #f9a323;
+}
+
+#medicin {
+    background-image: linear-gradient(to right, #ff758c, #ff7eb3);
+}
+
+#medicin .articles article a:hover {
+    background-color: #000000;
+}
+
+#medicin .articles article a {
+    background-color: #f0506a;
+}
+
+#technology {
+    background-image: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+#technology .articles article a:hover {
+    background-color: #000000;
+}
